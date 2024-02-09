@@ -1,0 +1,166 @@
+.account-info {
+    position: fixed;
+    left: 0;
+    top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    width: 35px;
+    height: 35px;
+}
+
+.login {
+    position: fixed;
+    top: 250px;
+    width: 300px;
+    height: 200px;
+    background: #e0e0e0;
+    text-align: center;
+    -webkit-border-top-right-radius: 30px;
+    -webkit-border-bottom-right-radius: 30px;
+    z-index: 1;
+}
+
+.login-closed {
+    left: -100%; /* <-- 0px */
+    transition: 0.7s all;
+}
+
+.login-opened {
+    left: 0;
+    transition: 0.7s all;
+
+}
+
+.login span {
+    font-weight: 500;
+}
+
+.login-btn {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.user-data {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 10%;
+    background: white;
+    z-index: 3;
+    min-width: 250px;
+    max-width: 1000px;
+    min-height: 300px;
+    max-height: 800px;
+    border-radius: 10px;
+    display: none;
+}
+
+.your-profile {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.user-data-account-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: auto;
+    height: 50px;
+    padding: 0 20px;
+    border: 2px solid #2f2f2f;
+    border-radius: 5px;
+}
+
+.user-data-account-info span {
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0 15px;
+}
+
+.trade-url-title {
+    display: flex;
+    flex-flow: column;
+}
+
+.trade-url-title span {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.trade-url-title span a {
+    color: red;
+    cursor: pointer;
+}
+
+.form-container {
+    width: 100%;
+}
+
+.form-container form {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.form-group {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row;
+}
+
+.form-group span {
+    width: 140px;
+    font-weight: 500;
+}
+.secondary-form-group {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+}
+.secondary-form-group input {
+    width: 20%;
+}
+.secondary-form-group div {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.secondary-form-group div input {
+    border: none;
+}
+.secondary-form-group div input:active {
+    border: none;
+}
+
+
+.input-styled {
+    width: 100%;
+    height: 36px;
+}
+
+.logout {
+    text-align: right;
+    margin-top: 45px;
+}
+
+.logout-btn {
+    border-radius: 3px;
+    border: 2px solid black;
+    color: black !important;
+    font-weight: 500;
+    padding: .375rem .75rem;
+    transition: 0.5s all;
+
+}
+
+.logout-btn:hover {
+    background: black;
+    color: white !important;
+    transition: 0.5s all;
+}

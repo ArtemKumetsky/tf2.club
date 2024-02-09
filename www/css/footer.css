@@ -1,0 +1,40 @@
+.public-info {
+    color: whitesmoke;
+    background: radial-gradient(ellipse at bottom, #303a49 0, #151628 100%);
+}
+.public-info h5 {
+    color: white;
+}
+.public-info-content {
+    display: flex;
+    flex-flow: row;
+}
+.public-info-links {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.public-info-links .col-xxl-10 {
+    display: flex;
+}
+.footer-adaptive-empty-place {
+    display: none;
+}
+.public-info-links .col-xxl-10 .footer-adaptive-el {
+    display: flex;
+    justify-content: space-around;
+}
+.public-info-links a {
+     color: whitesmoke;
+}
+.public-info-links a:not(.public-info-powered-by a) {
+    font-size: 20px;
+}
+.public-info-powered-by {
+    display: flex;
+    align-items: center;
+}
+.public-info-powered-by a {
+    text-decoration: underline;
+}

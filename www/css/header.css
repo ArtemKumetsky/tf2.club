@@ -1,0 +1,55 @@
+#header {
+    position: fixed;
+}
+.bg-dark {
+    background: transparent;
+    transition: 0.6s background;
+    z-index: 1;
+}
+.navbar-brand {
+    margin-left: 15px;
+}
+.navbar-brand img {
+    max-width: 120px;
+    height: 30px;
+}
+.navbar-collapse {
+    justify-content: center;
+    align-items: center;
+    margin-right: 90px;
+}
+
+.navbar-nav li:before {
+    display: block;
+    content: "";
+    background-color: whitesmoke;
+    height: 3px;
+    width: 0;
+    left: 50%;
+    bottom: 0;
+    position: absolute;
+    -webkit-transition: width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.navbar-nav li:hover:before {
+    width: 100%;
+    transition: 0.5s all;
+}
+
+.navbar-nav li {
+    position: relative;
+    transition: 0.5s all;
+}
+
+nav {
+    width: 100%;
+}
+
+
+
+

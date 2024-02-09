@@ -1,0 +1,196 @@
+/*Cookie message*/
+
+@media (min-width: 1225px) and (max-width: 1505px) {
+    .cookie-message span, .cookie-message button {
+        font-size: 16px;
+    }
+}
+@media (min-width: 1080px) and (max-width: 1224px) {
+    .cookie-message span, .cookie-message button {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 710px) and (max-width: 1079px) {
+    .cookie-message {
+        height: auto;
+        display: flex;
+        flex-flow: column;
+        text-align: center;
+        max-height: 120px;
+    }
+    .cookie-message button {
+        margin-top: 15px;
+    }
+}
+@media (min-width: 300px) and (max-width: 709px) {
+    .cookie-message {
+        height: auto;
+        display: flex;
+        flex-flow: column;
+        text-align: center;
+        max-height: 120px;
+    }
+    .cookie-message button {
+        margin-top: 15px;
+    }
+    .cookie-message span {
+        font-size: 12px;
+    }
+}
+
+/*Cookie message*/
+
+@media (max-width: 1024px) {
+    .background-static {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .contacts {
+        margin-top: 85%;
+    }
+    .market-sell {
+        margin-top: 10%;
+    }
+
+}
+
+@media (min-width: 700px) and (max-width: 767px) {
+    .contacts {
+        margin-top: 95%;
+    }
+    .market-sell {
+        margin-top: 10%;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 699px) {
+    .contacts {
+        margin-top: 110%;
+    }
+    .market-sell {
+        margin-top: 10%;
+    }
+    .admin-info, .developer-info {
+        border-radius: 0;
+    }
+    .work {
+        margin-top: 40%;
+    }
+
+}
+@media (min-width: 520px) and (max-width: 575px) {
+    .company h3, h4 {
+        font-size: 20px;
+    }
+    .market-sell {
+        margin-top: 10%;
+    }
+    .contacts {
+        margin-top: 110%;
+
+    }
+    .work {
+        margin-top: 40%;
+    }
+
+}
+@media (min-width: 475px) and (max-width: 519px) {
+    .company h3, h4 {
+        font-size: 18px;
+    }
+    .market-sell {
+        margin-top: 10%;
+    }
+    .contacts {
+        margin-top: 120%;
+    }
+    .work {
+        margin-top: 40%;
+    }
+
+}
+
+@media (min-width: 375px) and (max-width: 474px) {
+    .market-sell {
+        margin-top: 10%;
+    }
+    .contacts {
+        margin-top: 130%;
+    }
+    .work {
+        margin-top: 60%;
+    }
+
+}
+@media (max-width: 374px) {
+
+
+    .market-sell {
+        margin-top: 10%;
+    }
+    .contacts {
+        margin-top: 140%;
+    }
+    .work {
+        margin-top: 90%;
+    }
+    .work-title h2 {
+        font-size: 32px;
+    }
+
+}
+@media (max-width: 280px) {
+    .company {
+        margin-top: -105% !important;
+    }
+
+    .company h3, .company h4 {
+        font-size: 16px;
+    }
+    .market-sell {
+        margin-top: 10%;
+    }
+    .work {
+        margin-top: 100% ;
+    }
+    .work h2 {
+        font-size: 14px;
+    }
+    .process ul {
+        font-size: 14px ;
+    }
+    .cookie-message {
+        height: auto;
+        display: flex;
+        flex-flow: column;
+        text-align: center;
+        max-height: 120px;
+    }
+    .cookie-message button {
+        margin-top: 15px;
+    }
+    .cookie-message span {
+        font-size: 12px;
+    }
+}
+/*footer*/
+@media (max-width: 1350px) {
+    .public-info-links a:not(.public-info-powered-by a) {
+        font-size: 16px;
+    }
+}
+@media (max-width: 992px) {
+    .footer-adaptive-empty-place {
+        display: block;
+    }
+    .public-info-links .col-xxl-10 .footer-adaptive-el {
+        display: flex;
+        flex-flow: column;
+    }
+}
+
+
+/* /footer*/

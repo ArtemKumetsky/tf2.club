@@ -1,0 +1,59 @@
+
+.admin-info, .developer-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    /*background: #1c1c1c;*/
+    /*border: 2px solid #2f2f2f;*/
+    border: 2px solid rgba(21, 22, 40, 0.4);
+    background:rgba(21, 22, 40, 0.3);
+    max-height: 315px;
+    min-width: 250px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 20px 21px 0 rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 20px 21px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 20px 21px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s all;
+
+}
+.admin-info:hover, .developer-info:hover {
+    transform: scale(1.1);
+    transition: 0.3s all;
+}
+.admin-info a, .developer-info a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contacts-photo {
+    width: 184px;
+    height: 184px;
+}
+.contacts h3 {
+    text-align: center;
+}
+.admin-photo, .dev-photo {
+    border-radius: 100%;
+    border: 1px solid #2f2f2f;
+    width: 184px;
+    height: 184px;
+    background-size: cover;
+}
+.admin-photo {
+    background: url("https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/items/570/7a490f21e9af2f00bf0ba1684131427c2d59d3b5.gif") no-repeat center;
+    /*background: url("https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/items/1084640/af65ef5b8a13429dca885efe121dd362cb742044.gif") no-repeat center;*/
+    /*transform: scale(-1,1);*/
+}
+
+.dev-photo {
+    background: url("https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/items/1084640/af65ef5b8a13429dca885efe121dd362cb742044.gif") no-repeat center;
+}
+.telegram-href {
+    display: flex;
+    margin: auto;
+    max-width: 40px;
+}
+.telegram {
+    max-width: 40px;
+}

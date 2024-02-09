@@ -1,0 +1,23 @@
+.public-pages-title {
+    color: whitesmoke;
+}
+.public-pages-title .col-12 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.additional-pages-text {
+    color: whitesmoke;
+}
+.additional-pages-text-title {
+    display: flex;
+    flex-flow: column;
+}
+.additional-pages-text-title span {
+    font-size: 26px;
+    font-weight: 700;
+}
+.additional-pages-text-sub-title {
+    font-weight: 500;
+    font-size: 20px;
+}

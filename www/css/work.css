@@ -1,0 +1,21 @@
+.work-title {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.process {
+    width: 100%;
+    display: flex;
+}
+.process div {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.process ul {
+    border: 2px solid white;
+}

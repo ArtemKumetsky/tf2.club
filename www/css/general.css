@@ -1,0 +1,83 @@
+
+
+
+body {
+    background: radial-gradient(ellipse at top, #303a49 0, #151628 100%);
+}
+
+
+/*.background-static {
+    z-index: -2;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background: url("/img/body-background.jpg") no-repeat center;
+    background-size: 100%;
+
+}*/
+
+.page-element {
+    color: whitesmoke;
+    margin-top: 15%;
+    margin-bottom:15%;
+    height: 800px;
+}
+
+.page-element span {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.additional {
+    font-size: 20px;
+    font-weight: 500;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+a:hover {
+    color: inherit;
+}
+
+.maintenance {
+    position: absolute;
+    background: black;
+    width: 100%;
+    height: 500px;
+    font-size: 48px;
+    font-weight: 700;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.el-title {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+}
+.el-title .col-12 {
+    display: flex;
+    justify-content: center;
+}
+.el-title h2 {
+    font-size: 40px;
+}
+.lines {
+    border-top: 2px solid orangered;
+    border-bottom: 2px solid orangered;
+    height: 10px;
+    width: 200px;
+}
+.line-left {
+    display: flex;
+    justify-content: flex-start;
+}
+.line-right {
+    display: flex;
+    justify-content: flex-end;
+}
+.back-to-main-page {
+    width: 160px!important;
+}

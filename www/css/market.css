@@ -1,0 +1,102 @@
+
+
+.key-photo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tf2key-img {
+    max-width: 300px;
+}
+.market-el {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+
+}
+.market-buy-text {
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+}
+.market-btn-place {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.market-item-title {
+    font-size: 12px;
+}
+.market-item-title, .market-item-price, .market-item-stock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.market-item-title span, .market-item-price span, .market-item-stock span {
+    margin-left: 5px;
+}
+
+.market-item-block {
+    border-radius: 4px;
+    padding: 10px;
+    border: 2px solid rgba(21, 22, 40, 0.4);
+    background:rgba(21, 22, 40, 0.3);
+    -webkit-box-shadow: 0 20px 21px 0 rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 20px 21px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 20px 21px 0 rgba(0, 0, 0, 0.2);
+}
+.market-item-stock span, .market-item-price span {
+    font-size: 30px;
+}
+
+.market-btn {
+    width: 150px;
+    font-size: 22px;
+    position: relative;
+    transition: 0.5s all;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.market-btn span {
+    margin-right: 5px;
+}
+/*.market-btn:hover {*/
+/*    transform: scale(1.1);*/
+/*    transition: 0.3s all;*/
+/*}*/
+.market-btn-buy {
+    border: 2px solid #1cc92d;
+    color: #1cc92d;
+}
+.market-btn-sell {
+    color: #ff500a;
+    border: 2px solid #ff500a;
+}
+.market-btn:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 46px;
+    transition: 0.3s all;
+    z-index: -1;
+}
+
+.market-btn-buy:before {
+    background: #1cc92d;
+}
+.market-btn-sell:before {
+    background: #ff500a;
+}
+
+.market-btn:hover:before {
+    width: 100%;
+    transition: 0.3s all;
+}
+
+
